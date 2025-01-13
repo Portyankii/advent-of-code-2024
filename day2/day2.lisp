@@ -1,4 +1,4 @@
-(defparameter *file-path* "/config/workspace/advent-of-code-2024/day1/part2.dat")
+(defparameter *file-path* "/config/workspace/advent-of-code-2024/day2/day2.dat")
 
 (defun safe-report-p (report)
   (let ((increasing t)
@@ -22,6 +22,7 @@
       (when (safe-report-p report)
         (incf safe-count)))
     safe-count))
+
 
 (defun read-reports-from-file (filename)
   (with-open-file (stream filename)
