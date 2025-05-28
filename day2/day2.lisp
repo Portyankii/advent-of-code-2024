@@ -1,4 +1,4 @@
-(defparameter *file-path* "/config/workspace/advent-of-code-2024/day2/day2.dat")
+(defparameter *file-path* "/home/rye/development/lisp/advent-of-code-2024/day2/test.dat")
 
 (defun safe-report-p (report)
   (let ((increasing t)
